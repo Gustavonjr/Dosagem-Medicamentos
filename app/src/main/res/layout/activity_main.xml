@@ -92,17 +92,20 @@
         android:layout_height="wrap_content"
         android:text="Resultado"
         android:layout_gravity="center_horizontal"
-        android:layout_row="9"
+        android:layout_row="8"
         android:layout_column="1"
-        android:id="@+id/txvResultado"/>
+        android:id="@+id/txvResultado"
+        android:textColor="@color/DarkSlateGray"/>
     <Button
         android:layout_width="70pt"
         android:layout_height="wrap_content"
         android:text="Calcular"
         android:layout_gravity="center_horizontal"
-        android:layout_row="10"
+        android:layout_row="9"
         android:layout_column="1"
-        android:onClick="calcular"/>
+        android:onClick="calcular"
+        android:textColor="@color/White"
+        android:background="@color/DarkSlateGray"/>
 
 
 </GridLayout>
